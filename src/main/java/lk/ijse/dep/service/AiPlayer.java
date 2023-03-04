@@ -29,7 +29,7 @@ public class AiPlayer extends Player {
         }
     }
 //============================================================================================================================
-    private int minimax(int depth, boolean maximizingPlayer) {
+  /*  private int minimax(int depth, boolean maximizingPlayer) {
         Winner winner = board.findWinner();
         if (winner.getWinningPiece() == Piece.GREEN) {
             return 1;
@@ -109,7 +109,7 @@ public class AiPlayer extends Player {
             } while (!board.isLeagalMove(j));
             return j;
         }
-    }
+    }*/
 //==============================================================================================================================
     private int findBestCol(){ // my AI method
 
